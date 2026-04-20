@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sound API Lab </title>
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
@@ -21,15 +20,14 @@
         <button id="stopBtn">⏹ Stop</button>
     </div>
     
-    <div class="control-group">
+    <div class="control">
         <label>Volume:</label>
         <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.7">
         <span id="volumeValue">70%</span>
     </div>
     
-    <div class="control-group">
+    <div class="control">
         <button id="muteBtn">🔊 Mute</button>
-        <span style="margin-left: 20px;">
             <strong>Time:</strong> 
             <span id="currentTime">00:00</span> / 
             <span id="duration">00:00</span>
